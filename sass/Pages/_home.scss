@@ -1,0 +1,155 @@
+@import '../Abstracts/variables';
+@import '../components/btns';
+@import '../Layout/asidebar' , '../Layout/header';
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+.container {
+    background: $Background;
+    border: 1px solid #000;
+    border-radius: 10px;
+    height: 40pc;
+    padding-top: 10px;
+
+    .card {
+        border: 1px solid #000;
+        border-radius: 10px;
+        margin: 10px;
+        background-color: #3f51b5;
+        position: relative;
+        // bottom: 10px;
+        // display: none;
+        // box-shadow: rgb(255, 255, 255) 0px 1px 1px 0px inset, rgb(255, 255, 255) 0px 50px 100px -20px, rgb(255, 255, 255) 0px 30px 60px -30px;        
+        
+        h2 {
+            margin: 10px;
+            color:  #fff;
+            font-family: $Font;
+            letter-spacing: 2px;
+            transform: translate(10px,-10px);
+        }
+
+        h2,img { display: inline-block; }
+
+        img {
+            position: relative;
+            left: 6pc;
+            top: 10px;
+            color: rgba(18, 217, 200, 0.472);
+        }
+
+        p#code {
+            color: #fff;
+            font-family: $Font;
+            font-weight: bold;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .border {
+            background: #fff;
+            height: 5px;
+            margin: 10px 5pc 0 3pc;
+            transform: translate(-25px,-10px);
+        }
+
+        #userName {
+            color: #fff;
+            font-family: $Font;
+            font-weight: bold;
+            font-size: 18px;
+            margin: 20px;
+            position: relative;
+            bottom: 20px;
+            display: inline;
+
+            img {
+                transform: translate(-10px,6px);
+            }
+        }
+
+    }
+
+    #notife {
+        float: right;
+        position: relative;
+        top: 15px;
+        right: 15px;
+    }
+
+    #menuBtn,#notife {
+        cursor: pointer;
+    }
+
+    .Progress1 {
+        // margin-top: 20px;
+        height: 10px;
+        width: 70%;
+        background: #fff;
+        border-radius: 20px;
+        margin: 20px;
+        position: relative;
+        left: 4.8pc;
+        top: 1pc;
+        // display: none;
+
+        .Cont1 {
+            background: #00bcd4;
+            width: 50%;
+            height: 10px;
+            border-radius: 20px;
+        }
+
+        span {
+            position: relative;
+            right: 5.5pc;
+            bottom: 4.5pc;
+            color: #fff;
+            font-family: $Font;
+            font-size: 24px;
+        }
+
+        p {
+            transform: translate(11.8pc,-3.3pc);
+            color: rgba(211, 211, 211, 0.777);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    }
+
+    .Progress2 {
+        height: 10px;
+        width: 70%;
+        background: #fff;
+        border-radius: 20px;
+        margin: 20px;
+        position: relative;
+        left: 4.8pc;
+        top: 2pc;
+        // display: none;
+
+        .Cont2 {
+            background: #f00f5a;
+            width: 65%;
+            height: 10px;
+            border-radius: 20px;
+        }
+
+        span {
+            position: relative;
+            right: 5.5pc;
+            bottom: 4.8pc;
+            color: #fff;
+            font-family: $Font;
+            font-size: 24px;
+        }
+
+        p {
+            transform: translate(11.8pc,-3.3pc);
+            color: rgba(211, 211, 211, 0.777);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    }
+}
+
+#menuBtn {
+    margin: 20px;
+}

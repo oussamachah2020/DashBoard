@@ -1,0 +1,11 @@
+article {
+    transition: .4s ease-out;
+}
+
+.unseen {
+    transform: translateY(-150%);
+}
+
+.seen {
+    transform: translateY(0%);
+}

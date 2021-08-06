@@ -1,0 +1,357 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
+ul.List {
+  list-style: none;
+  -webkit-transform: translate(5px, -14.5pc);
+          transform: translate(5px, -14.5pc);
+  background: #fff;
+  padding: 3px 20px 3px 3px;
+  border-radius: 30px;
+  text-align: center;
+  margin: 20px;
+}
+
+ul.List li {
+  display: inline-block;
+  margin: 1px;
+  position: relative;
+  left: 10px;
+}
+
+ul.List li img {
+  margin: 0 30px 0 30px;
+  cursor: pointer;
+}
+
+#Dash {
+  -webkit-transform: translate(2.7pc, -5pc);
+          transform: translate(2.7pc, -5pc);
+  font-family: "Ubuntu", sans-serif;
+  background: #fff;
+  width: 23%;
+  padding: 7px;
+  border-radius: 30px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+#Profile {
+  -webkit-transform: translate(9.6pc, -8pc);
+          transform: translate(9.6pc, -8pc);
+  font-family: "Ubuntu", sans-serif;
+  background: #fff;
+  width: 14.5%;
+  padding: 7px;
+  border-radius: 30px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+#Message {
+  -webkit-transform: translate(15pc, -11pc);
+          transform: translate(15pc, -11pc);
+  font-family: "Ubuntu", sans-serif;
+  background: #fff;
+  width: 20.4%;
+  padding: 7px;
+  border-radius: 30px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+article {
+  -webkit-transition: .4s ease-out;
+  transition: .4s ease-out;
+}
+
+.unseen {
+  -webkit-transform: translateY(-150%);
+          transform: translateY(-150%);
+}
+
+.seen {
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
+}
+
+.container {
+  background: linear-gradient(50deg, #00bcd4, #9c27b0);
+  border: 1px solid #000;
+  border-radius: 10px;
+  height: 40pc;
+  padding-top: 10px;
+}
+
+.container .card {
+  border: 1px solid #000;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: #3f51b5;
+  position: relative;
+}
+
+.container .card h2 {
+  margin: 10px;
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+  letter-spacing: 2px;
+  -webkit-transform: translate(10px, -10px);
+          transform: translate(10px, -10px);
+}
+
+.container .card h2, .container .card img {
+  display: inline-block;
+}
+
+.container .card img {
+  position: relative;
+  left: 6pc;
+  top: 10px;
+  color: rgba(18, 217, 200, 0.472);
+}
+
+.container .card p#code {
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+.container .card .border {
+  background: #fff;
+  height: 5px;
+  margin: 10px 5pc 0 3pc;
+  -webkit-transform: translate(-25px, -10px);
+          transform: translate(-25px, -10px);
+}
+
+.container .card #userName {
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 20px;
+  position: relative;
+  bottom: 20px;
+  display: inline;
+}
+
+.container .card #userName img {
+  -webkit-transform: translate(-10px, 6px);
+          transform: translate(-10px, 6px);
+}
+
+.container #notife {
+  float: right;
+  position: relative;
+  top: 15px;
+  right: 15px;
+}
+
+.container #menuBtn, .container #notife {
+  cursor: pointer;
+}
+
+.container .Progress1 {
+  height: 10px;
+  width: 70%;
+  background: #fff;
+  border-radius: 20px;
+  margin: 20px;
+  position: relative;
+  left: 4.8pc;
+  top: 1pc;
+}
+
+.container .Progress1 .Cont1 {
+  background: #00bcd4;
+  width: 50%;
+  height: 10px;
+  border-radius: 20px;
+}
+
+.container .Progress1 span {
+  position: relative;
+  right: 5.5pc;
+  bottom: 4.5pc;
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 24px;
+}
+
+.container .Progress1 p {
+  -webkit-transform: translate(11.8pc, -3.3pc);
+          transform: translate(11.8pc, -3.3pc);
+  color: rgba(211, 211, 211, 0.777);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container .Progress2 {
+  height: 10px;
+  width: 70%;
+  background: #fff;
+  border-radius: 20px;
+  margin: 20px;
+  position: relative;
+  left: 4.8pc;
+  top: 2pc;
+}
+
+.container .Progress2 .Cont2 {
+  background: #f00f5a;
+  width: 65%;
+  height: 10px;
+  border-radius: 20px;
+}
+
+.container .Progress2 span {
+  position: relative;
+  right: 5.5pc;
+  bottom: 4.8pc;
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 24px;
+}
+
+.container .Progress2 p {
+  -webkit-transform: translate(11.8pc, -3.3pc);
+          transform: translate(11.8pc, -3.3pc);
+  color: rgba(211, 211, 211, 0.777);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#menuBtn {
+  margin: 20px;
+}
+
+.Messages_Zone {
+  position: relative;
+  bottom: 53pc;
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+}
+
+.Messages_Zone input[type='search'] {
+  position: relative;
+  left: 1.7pc;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  padding: 8px 4pc 8px 15px;
+  background: #fff url("image/search.png") no-repeat 16.4pc;
+  caret-color: #131390;
+  color: #200020;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+}
+
+.Messages_Zone ul {
+  list-style: none;
+}
+
+.Messages_Zone ul li {
+  border: 1px solid #fff;
+  background-color: white;
+  width: 90%;
+  border-radius: 5px;
+  padding: 3px 3px 10px 3px;
+  -webkit-transform: translateX(-8px);
+          transform: translateX(-8px);
+}
+
+.Messages_Zone ul li input {
+  width: 18px;
+  height: 18px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.Messages_Zone ul li label {
+  font-family: "Ubuntu", sans-serif;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: #000;
+}
+
+.Messages_Zone ul li label img {
+  cursor: pointer;
+  position: relative;
+  left: 4pc;
+  top: 4.5px;
+  opacity: 0;
+}
+
+.active {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+}
+
+.desactive {
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+
+.Profile {
+  position: relative;
+  bottom: 60pc;
+  -webkit-transition: .6s ease-in-out;
+  transition: .6s ease-in-out;
+}
+
+.Profile p {
+  -webkit-transform: translate(10px, -4.5pc);
+          transform: translate(10px, -4.5pc);
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.Profile p img {
+  position: relative;
+  top: 4pc;
+  left: 7pc;
+  border-radius: 50%;
+  border: 2px solid rgba(76, 102, 233, 0.979);
+  color: rgba(238, 70, 106, 0.451);
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.Profile span {
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  left: 6%;
+  bottom: 10px;
+}
+
+.Profile #myChart {
+  position: relative;
+  top: 3pc;
+}
+
+.logOut {
+  -webkit-transform: translateX(150%);
+          transform: translateX(150%);
+}
+
+.logIn {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+}
+
+*::after, *::before {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+/*# sourceMappingURL=main.css.map */

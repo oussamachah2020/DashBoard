@@ -1,0 +1,52 @@
+ul.List {
+    list-style: none;
+    transform: translate(5px,-14.5pc);
+    background: #fff;
+    padding: 3px 20px 3px 3px;
+    border-radius: 30px;
+    text-align: center;
+    margin: 20px;
+    // width: 80%;
+    
+    li {
+        display: inline-block;
+        margin: 1px;
+        position: relative;
+        left: 10px;
+        
+        img {
+            margin:0 30px 0 30px;
+            cursor: pointer;
+        }
+    }
+}
+
+#Dash {
+    transform: translate(2.7pc,-5pc);
+    font-family: $Font;
+    background: #fff;
+    width: 23%;
+    padding: 7px;
+    border-radius: 30px;
+    transition: .5s;
+}
+
+#Profile {
+    transform: translate(9.6pc,-8pc);
+    font-family: $Font;
+    background: #fff;
+    width: 14.5%;
+    padding: 7px;
+    border-radius: 30px;
+    transition: .5s;
+}
+
+#Message {
+    transform: translate(15pc,-11pc);
+    font-family: $Font;
+    background: #fff;
+    width: 20.4%;
+    padding: 7px;
+    border-radius: 30px;
+    transition: .5s;
+}

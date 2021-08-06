@@ -1,0 +1,63 @@
+.Messages_Zone {
+    // transform: translateX(-100%);
+    position: relative;
+    bottom: 53pc;
+    transition: .4s ease-in-out;
+
+    input[type='search'] {
+        position: relative;
+        left: 1.7pc;
+        border: none;
+        outline: none;
+        border-radius: 30px;
+        padding: 8px 4pc 8px 15px;
+        background: #fff url('image/search.png') no-repeat 16.4pc;
+        caret-color: rgb(19, 19, 144);
+        color: #200020;
+        font-family: $Font;
+        font-weight: bold;
+    }
+
+    ul {
+        list-style: none;
+        
+        li {
+            border: 1px solid #fff;
+            background-color: white;
+            width: 90%;
+            border-radius: 5px;
+            padding: 3px 3px 10px 3px;
+            transform: translateX(-8px);
+
+            input {
+                width: 18px;
+                height: 18px;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            }
+    
+            label {
+                font-family: $Font;
+                letter-spacing: 2px;
+                font-weight: 500;
+                color: #000;
+
+                img {
+                    cursor: pointer;
+                    position: relative;
+                    left: 4pc;
+                    top: 4.5px;
+                    opacity: 0;
+                    // transition: .2s;
+                }
+            }
+        }
+    }
+}
+
+.active {
+    transform: translateX(0%);
+}
+
+.desactive {
+    transform: translateX(-100%);
+}

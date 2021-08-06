@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sass/main.css">
+    <title>Bank DashBoard</title>
+</head>
+<body>  
+    <div class="container">
+        <article class="content unseen">
+            <div class="card">
+                <h2>My Account</h2><img src="image/visa.png">
+                <div class="border"></div>
+                <p id="code">7572 8287 9208 2872</p>
+                <p id="userName">Amanda Aniston<img src="image/visaColored.png" width="50px" height="50px
+        "></p>
+            </div>
+            <div class="Progress1">
+                <div class="Cont1"></div>
+                <p>50/100</p>
+                <span>SMS</span>
+            </div>
+            <div class="Progress2">
+                <div class="Cont2"></div>
+                <p>65/100</p>
+                <span>Bonus</span>
+            </div>
+        </article>
+    </div>
+    <p id="Dash">DashBoard</p>
+    <p id="Profile">Profile</p>
+    <p id="Message">Messages</p>
+    <ul class="List active">
+        <li class="Dashing">
+            <img src="image/dash.png" id="DashIcon">
+            <!-- <span>hello</span> -->
+        </li>
+        <li class="profile">
+            <img src="image/profile.png" id="Prfl">
+        </li>
+        <li class="chat">
+            <img src="image/message.png" id="Msg">
+        </li>
+    </ul>
+    <div class="Messages_Zone desactive">
+        <input type="search" id="filter" placeholder="Search">
+        <ul class="msgList">
+            <li class="inbox">
+                <input type="checkbox" name="check" id="">
+                <label for="check">
+                    new message 
+                    <img src="image/trash.png" class="options" title="Delete">
+                    <img src="image/archive.png" class="options" title="Archive">
+                </label>
+            </li>
+        </ul>
+    </div>
+    <div class="Profile logOut">
+        <p id="userName">
+            Ms Amanda
+            <img src="image/person.jpeg" width="80px" height="80px" id="prfl">
+        </p>    
+        <span>Active Months per Year</span>
+        <canvas id="Activities" style="width:200px; max-width:700px"></canvas>
+        <canvas id="myChart" style="width:780px; max-width:700px" aria-label="Profits"></canvas>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script src="script/app.js"></script>
+</body>
+</html>
